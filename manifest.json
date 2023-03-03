@@ -1,0 +1,24 @@
+{
+  "description": "Free access to premium article of MidiLibre",
+  "manifest_version": 3,
+  "name": "Midi-Free",
+  "version": "1.0",
+  "icons": {
+    "48": "icons/free.png"
+  },
+  "permissions": [],
+  "action": {
+    "default_popup": "dialog.html"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "*://*.midilibre.fr/*"
+      ],
+      "js": [
+        "script.js"
+      ],
+      "run_at": "document_idle"
+    }
+  ]
+}
