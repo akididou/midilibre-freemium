@@ -13,7 +13,13 @@
   "content_scripts": [
     {
       "matches": [
-        "*://*.midilibre.fr/*"
+        "*://*.midilibre.fr/*",
+        "*://*.lindependant.fr/*",
+        "*://*.ladepeche.fr/*",
+        "*://*.nrpyrenees.fr/*",
+        "*://*.centrepresseaveyron.fr/*",
+        "*://*.petitbleu.fr/*",
+        "*://*.midi-olympique.fr/*"
       ],
       "js": [
         "script.js"
