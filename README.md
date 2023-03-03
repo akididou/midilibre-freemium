@@ -1,3 +1,3 @@
 Midi Libre 
 
-Click on top button "Free" on green to unlock premium article 
+Click on green top button "Free", to unlock premium article for free.
